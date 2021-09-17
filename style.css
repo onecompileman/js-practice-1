@@ -1,0 +1,23 @@
+.challenge-box {
+    text-align: center;
+    border: 1px solid #333;
+    padding: 10px;
+}
+
+#rpsContainer img {
+    transition: 0.2s linear;
+    cursor: pointer;
+}
+
+#rpsContainer img:hover {
+    transform: scale(1.1);
+}
+
+#playerMoveImg {
+    box-shadow: 0 5px 5px rgba(50, 60, 180, 0.5);
+}
+
+
+#enemyMoveImg {
+    box-shadow: 0 5px 5px rgba(189, 60, 50, 0.5);
+}

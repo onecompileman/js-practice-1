@@ -4,8 +4,57 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Practice 1</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="challenge-box">
+            <h2>Challenge 1: Your Age In Days</h2>
+        </div>
+        <div class="challenge-box d-flex justify-content-around">
+            <button id="askAgeBtn" class="btn btn-primary">Click here</button>
+            <button id="resetAgeBtn" class="btn btn-danger">Reset</button>
+        </div>
+        <div class="challenge-box">
+            <h2 id="ageInDaysText"></h2>
+        </div>
+        <div class="challenge-box">
+            <h2>
+                Challenge 2: Cat Generator
+            </h2>
+            <button id="generateCatBtn" class="btn btn-success">
+                Generate
+            </button>
+
+            <div id="catImageContainer" class="d-flex flex-wrap justify-content-around mt-3">
+
+            </div>
+        </div>
+        <div class="challenge-box">
+            <h2>
+                Challenge 3: Rock, Paper, Scissors
+            </h2>
+        </div>
+        <div class="challenge-box p-4">
+            <div id="rpsContainer" class="d-flex justify-content-around">
+                <img id="rockImg" height="200" src="assets/images/rock.png" alt="Rock">
+                <img id="paperImg" height="200" src="assets/images/paper.png" alt="Paper">
+                <img id="scissorsImg" height="200" src="assets/images/scissors.png" alt="Scissors">  
+            </div>
+            <div id="resultContainer" class="d-flex justify-content-around d-none align-items-center">
+                <img id="playerMoveImg" height="200" src="assets/images/rock.png" alt="Rock">
+                <h3 id="resultTxt">
+
+                </h3>
+                <img id="enemyMoveImg" height="200" src="assets/images/rock.png" alt="Rock">
+
+            </div>
+        </div>
+        <div class="challenge-box"></div>
+        <div class="challenge-box"></div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
